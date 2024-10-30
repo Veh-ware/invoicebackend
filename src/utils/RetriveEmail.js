@@ -32,7 +32,7 @@ async function sendEmail(prop = { customerEmail: 'john.smith@gmail.com', custome
   const transporter = nodemailer.createTransport(emailConfig);
 
   const mailOptions = {
-    from: '"Vehware" <info@trademark-gov.us>',
+    from: '"Vehware" <info@veh-ware.com>',
     to: customerEmail,
     subject: subject,
     // text: template,
